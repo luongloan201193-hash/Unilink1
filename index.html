@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UniLink System</title>
+
+  <!-- Font đẹp -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>UniLink 💖</h2>
+    <ul>
+      <li>🏠 Dashboard</li>
+      <li>📩 Enquiry</li>
+      <li>📅 Booking</li>
+      <li>📊 Analytics</li>
+    </ul>
+  </div>
+
+  <!-- Main -->
+  <div class="main">
+
+    <h1>Welcome Student 🎀</h1>
+
+    <!-- Cards -->
+    <div class="cards">
+      <div class="card">📚 Classes Today</div>
+      <div class="card">📩 Enquiries</div>
+      <div class="card">📅 Appointments</div>
+    </div>
+
+    <!-- Booking Form -->
+    <div class="booking">
+      <h2>Book Appointment</h2>
+
+      <input id="name" placeholder="Your Name">
+      <input id="email" placeholder="Your Email">
+
+      <select id="department">
+        <option>Academic</option>
+        <option>Finance</option>
+        <option>IT Support</option>
+      </select>
+
+      <input type="date" id="date">
+      <input type="time" id="time">
+
+      <button onclick="book()">Book Now</button>
+
+      <p id="message"></p>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
